@@ -8,7 +8,7 @@ export default function Partners() {
       </div>
                 <h1 className="py-7 animateHeader text-4xl font-extrabold text-center text-white">
                     <i className="fal fa-stars text-amber-400 mr-2" />
-                    Yakında...
+                    Yakında.....
                 </h1>
             </div>
 
