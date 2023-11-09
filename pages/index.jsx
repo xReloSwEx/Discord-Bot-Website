@@ -13,7 +13,7 @@ export default function Index() {
           ReloX Bot
         </p>
         <p className="animateHeader text-white text-opacity-50 text-center mt-5">
-       Astra bot ile kendi sunucunuzu yönetmeye ne dersiniz? Kendi özgür dünyanızı yaratın ve kendi sunucunuzu oluşturun, bu keyfi en iyi bot ile yaşayın. 
+       ReloX bot ile kendi sunucunuzu yönetmeye ne dersiniz? Kendi özgür dünyanızı yaratın ve kendi sunucunuzu oluşturun, bu keyfi en iyi bot ile yaşayın. 
 	  </p>
         <div className="animateHeader mt-10 flex flex-wrap items-center justify-center gap-x-4">
   
@@ -90,7 +90,7 @@ Vote ReloX</a>
                   <p className="text-3xl text-white font-semibold">Botunuzu En İyi Şekilde Kullanın</p>
                   <p className="text-md text-white font-medium text-gray-500 line-clamp-5">En iyi ve en güncel bot ReloX ile en güzel partileri vermeye hazır mısınız?</p>
                 </div>
-                <img src="https://cdn.discordapp.com/attachments/737348411568685066/983094813115170866/unknown.png" className="hidden lg:block rounded-xl perspective-right shadow-xl shadow-black" />
+                <img src="https://media.discordapp.net/attachments/1169358873287733308/1172070718482157578/ssa2.PNG" className="hidden lg:block rounded-xl perspective-right shadow-xl shadow-black" />
               </>
       
         </div>
