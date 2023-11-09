@@ -7,7 +7,7 @@ export default function Privacy() {
   <div className="animateHeader text-white text-opacity-40 mt-5">
         <p>⊳ Astra botunu kullanmak için discord sunucunuza eklerken gerekli izinleri tanımlamanız gerekir. <a className="text-white">(MESAJLARI OKUYUN, MESAJ GÖNDERİN, BAĞLANTILARI YERLEŞTİRİN, DOSYA EKLE, MESAJ GEÇMİŞİNİ OKUYUN, BAĞLANIN, KONUŞUN, SES AKTİVİTESİNİ KULLANIN, ÖNCELİKLİ KONUŞMACI)</a></p>
         <div className="py-3"></div>
-        <p>⊳ Bot komutlarından belirli komutları kullanırken <a className="text-white" href="https://top.gg/bot/924325576095973426/vote">ReloX</a> botuna oy vermeniz gerekiyor.</p>
+        <p>⊳ Bot komutlarından belirli komutları kullanırken <a className="text-white" href="https://top.gg/bot/relox/vote">ReloX</a> botuna oy vermeniz gerekiyor.</p>
         <div className="py-3"></div>
         <p>⊳ Her kullanıcı ReloX Botu zarar verme kastı olmadığı sürece dilediği gibi kullanabilir.</p>
         <div className="py-3"></div>
