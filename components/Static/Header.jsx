@@ -63,7 +63,7 @@ const Header = ({ $, NavItems }) => {
         const banner = localStorage.getItem("$Award_close_banner");
         if (!banner) setBanner(true);
         const theme = localStorage.getItem("theme");
-        if (theme === "violet") setHue("hue-rotate-[230deg]");
+        if (theme === "menekşe") setHue("hue-rotate-[230deg]");
         if (theme === "blue") setHue("hue-rotate-[180deg]");
         if (theme === "emerald") setHue("hue-rotate-[70deg]");
         if (theme === "rose") setHue("hue-rotate-[330deg]");
