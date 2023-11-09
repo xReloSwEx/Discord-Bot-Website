@@ -565,7 +565,7 @@
 	--900-90: rgba(6, 78, 59, .90);
 }
 .bg-500 { background: var(--500); }
-.text-500-violet { color: rgba(139, 92, 246); }
+.text-500-menekşe { color: rgba(139, 92, 246); }
 .text-500-blue { color: rgba(59, 130, 246); }
 .text-500-emerald { color: rgb(16, 185, 129); }
 .text-500-rose { color: rgb(239, 68, 68); }
