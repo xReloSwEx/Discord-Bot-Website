@@ -45,7 +45,7 @@ const Header = ({ $, NavItems }) => {
 
     const colorsThemes = [
         { id: 'menekşe', color: 'menekşe', label: 'Menekşe' },
-        { id: 'blue', color: 'blue', label: 'Sky' },
+        { id: 'mavi', color: 'mavi', label: 'Gökyüzü' },
         { id: 'emerald', color: 'emerald', label: 'Emerald' },
         { id: 'rose', color: 'rose', label: 'Rose' },
         { id: 'amber', color: 'amber', label: 'Amber' },
@@ -64,7 +64,7 @@ const Header = ({ $, NavItems }) => {
         if (!banner) setBanner(true);
         const theme = localStorage.getItem("theme");
         if (theme === "menekşe") setHue("hue-rotate-[230deg]");
-        if (theme === "blue") setHue("hue-rotate-[180deg]");
+        if (theme === "mavi") setHue("hue-rotate-[180deg]");
         if (theme === "emerald") setHue("hue-rotate-[70deg]");
         if (theme === "rose") setHue("hue-rotate-[330deg]");
         if (theme === "amber") setHue("");
