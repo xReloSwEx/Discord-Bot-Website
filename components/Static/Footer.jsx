@@ -61,7 +61,7 @@ export default function Footer() {
                             </div>
                             <div>
                                 <a href=" https://discord.com/api/oauth2/authorize?client_id=1170430199242952766&permissions=8&scope=bot" target="_blank" className="text-white/50 hover:text-white hover:underline transform duration-200">
-                                    ReloX Botu Davet Et
+                                    Botu Davet Et
                                 </a>
                             </div>
                         </div>
