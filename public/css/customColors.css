@@ -112,7 +112,7 @@
     --900-90: rgba(76, 29, 149, .90);
     
 }
-[data-theme="blue"] {
+[data-theme="mavi"] {
     --gradient: rgba(51, 136, 234, 0.2);
     --900: rgba(30, 58, 138);
     --800: rgba(30, 64, 175);
@@ -566,7 +566,7 @@
 }
 .bg-500 { background: var(--500); }
 .text-500-menekşe { color: rgba(139, 92, 246); }
-.text-500-blue { color: rgba(59, 130, 246); }
+.text-500-mavi { color: rgba(59, 130, 246); }
 .text-500-emerald { color: rgb(16, 185, 129); }
 .text-500-rose { color: rgb(239, 68, 68); }
 .text-500-amber { color: rgb(245, 158, 11); }
