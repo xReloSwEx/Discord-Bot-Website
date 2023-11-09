@@ -13,7 +13,7 @@ const MobileNavbar = ({ open, setOpen, NavItems }) => {
 
                 <div className="flex justify-between border-b border-white/20 items-center px-5 py-4">
                     <div className="flex items-center">
-                        <img width="32" className="rounded-full icon-glow" src="/img/logo.jpg" />
+                        <img width="32" className="rounded-full icon-glow" src="https://media.discordapp.net/attachments/1169358873287733308/1171159263025041570/ReloX.PNG?ex=655baa0f&is=6549350f&hm=020bc9cb290ef18078c39c77a0682220640d57bf6972aaa749b172cb42f75a2a&=&width=704&height=621" />
                         <p className=" font-extrabold ml-1 text-2xl">ReloX</p>
                     </div>
                     <button onClick={() => setOpen(!open)}><i className="cursor-pointer fa fa-times text-xl mr-2" /></button>
