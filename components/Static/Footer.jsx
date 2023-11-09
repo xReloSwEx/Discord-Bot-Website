@@ -48,9 +48,9 @@ export default function Footer() {
                         <div className="col-span-1">
                             <p className="text-white font-medium mt-3 sm:mt-0 sm:mb-3">linkler</p>
                             <div>
-                                <Link href="https://top.gg/bot/relox/vote">
+                                <Link href="https://butter-water-technosaurus.glitch.me">
                                     <a className="text-white/50 hover:text-white hover:underline transform duration-200">
-                                        Vote ReloX
+                                        Uptime Servisi
                                     </a>
                                 </Link>
                             </div>
