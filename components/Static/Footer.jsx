@@ -65,6 +65,9 @@ export default function Footer() {
                                 </a>
                             </div>
                         </div>
+                        <a href=" https://discord.com/api/oauth2/authorize?client_id=1170430199242952766&permissions=8&scope=bot" target="_blank" className="text-white/50 hover:text-white hover:underline transform duration-200">
+                                    Uptime Services
+                                </a>
                         <div className="col-span-1">
                             <p className="text-white font-medium mt-3 sm:mt-0 sm:mb-3">Sosyal</p>
                             <div>
