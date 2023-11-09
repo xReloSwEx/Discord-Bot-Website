@@ -44,7 +44,7 @@ const Header = ({ $, NavItems }) => {
     const { theme, setTheme } = useTheme();
 
     const colorsThemes = [
-        { id: 'menekşe', color: 'menekşe', label: 'Menekşe' },
+        { id: 'mor', color: 'mor', label: 'Menekşe' },
         { id: 'mavi', color: 'mavi', label: 'Gökyüzü' },
         { id: 'emerald', color: 'emerald', label: 'Emerald' },
         { id: 'kırmızı', color: 'kırmızı', label: 'Gül' },
@@ -63,7 +63,7 @@ const Header = ({ $, NavItems }) => {
         const banner = localStorage.getItem("$Award_close_banner");
         if (!banner) setBanner(true);
         const theme = localStorage.getItem("theme");
-        if (theme === "menekşe") setHue("hue-rotate-[230deg]");
+        if (theme === "mor") setHue("hue-rotate-[230deg]");
         if (theme === "mavi") setHue("hue-rotate-[180deg]");
         if (theme === "emerald") setHue("hue-rotate-[70deg]");
         if (theme === "kırmızı") setHue("hue-rotate-[330deg]");
