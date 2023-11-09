@@ -2,7 +2,7 @@
 
 module.exports = withPWA({
     images: {
-        domains: [ "cdn.discordapp.com" ]
+        domains: [ "media.discordapp.net" ]
     },
     pwa: {
         dest: "public",
