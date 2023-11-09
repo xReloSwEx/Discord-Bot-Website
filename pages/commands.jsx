@@ -55,7 +55,7 @@ export default function Commands() {
          Bot Commands
         </p>
         <p className="text-white text-sm text-opacity-50 mb-5">
-        You can get information about the commands of the Astra Bot.
+        ReloX Bot'un komutları hakkında bilgi alabilirsiniz.
         </p>
 
         <div>
@@ -102,9 +102,9 @@ export default function Commands() {
 
         <div className="animateHeader mt-10 flex flex-wrap items-center justify-center gap-x-4">
   
-  <Link href={"https://bit.ly/3PHDjyC"}>
+  <Link href={"https://discord.com/api/oauth2/authorize?client_id=1170430199242952766&permissions=8&scope=bot"}>
   <a className={"flex items-center px-6 justify-center gap-x-2 shadow-lg shadow-amber-600/20 rounded-xl py-4 font-medium bg-gradient-to-bl from-amber-700 to-amber-500 hover:opacity-80 transition duration-200 text-white " }>
-Invite Astra</a>
+Invite ReloX</a>
   </Link>
 
   <div className="py-10"></div>
