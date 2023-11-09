@@ -48,7 +48,7 @@ const Header = ({ $, NavItems }) => {
         { id: 'mavi', color: 'mavi', label: 'Gökyüzü' },
         { id: 'emerald', color: 'emerald', label: 'Emerald' },
         { id: 'kırmızı', color: 'kırmızı', label: 'Gül' },
-        { id: 'amber', color: 'amber', label: 'Amber' },
+        { id: 'turuncu', color: 'turuncu', label: 'Kehribar' },
     ];
    
     const ChangeColor = id => {
@@ -67,7 +67,7 @@ const Header = ({ $, NavItems }) => {
         if (theme === "mavi") setHue("hue-rotate-[180deg]");
         if (theme === "emerald") setHue("hue-rotate-[70deg]");
         if (theme === "kırmızı") setHue("hue-rotate-[330deg]");
-        if (theme === "amber") setHue("");
+        if (theme === "turuncu") setHue("");
     }, []);
     
     return (
