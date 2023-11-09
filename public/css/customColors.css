@@ -451,7 +451,7 @@
 	--900-80: rgba(120, 53, 15, .80);
 	--900-90: rgba(120, 53, 15, .90);
 }
-[data-theme=emerald] {
+[data-theme=yeşil] {
     --gradient: rgba(16, 185, 129, .2);
 	--50: rgba(236, 253, 245);
 	--50-0: rgba(236, 253, 245, .0);
@@ -567,6 +567,6 @@
 .bg-500 { background: var(--500); }
 .text-500-mor { color: rgba(139, 92, 246); }
 .text-500-mavi { color: rgba(59, 130, 246); }
-.text-500-emerald { color: rgb(16, 185, 129); }
+.text-500-yeşil { color: rgb(16, 185, 129); }
 .text-500-kırmızı { color: rgb(239, 68, 68); }
 .text-500-turuncu { color: rgb(245, 158, 11); }
