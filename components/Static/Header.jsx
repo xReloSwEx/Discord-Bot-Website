@@ -47,7 +47,7 @@ const Header = ({ $, NavItems }) => {
         { id: 'menekşe', color: 'menekşe', label: 'Menekşe' },
         { id: 'mavi', color: 'mavi', label: 'Gökyüzü' },
         { id: 'emerald', color: 'emerald', label: 'Emerald' },
-        { id: 'rose', color: 'rose', label: 'Rose' },
+        { id: 'kırmızı', color: 'kırmızı', label: 'Gül' },
         { id: 'amber', color: 'amber', label: 'Amber' },
     ];
    
@@ -66,7 +66,7 @@ const Header = ({ $, NavItems }) => {
         if (theme === "menekşe") setHue("hue-rotate-[230deg]");
         if (theme === "mavi") setHue("hue-rotate-[180deg]");
         if (theme === "emerald") setHue("hue-rotate-[70deg]");
-        if (theme === "rose") setHue("hue-rotate-[330deg]");
+        if (theme === "kırmızı") setHue("hue-rotate-[330deg]");
         if (theme === "amber") setHue("");
     }, []);
     
