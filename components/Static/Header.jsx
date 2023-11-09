@@ -76,7 +76,7 @@ const Header = ({ $, NavItems }) => {
                 <div className="max-w-7xl px-5 mx-auto py-5 flex items-center justify-between">
                     <div className="flex items-center space-x-6">
                         <div className="flex items-center space-x-3">
-                            <img src="/img/logo2.png" 
+                            <img src="https://media.discordapp.net/attachments/1169358873287733308/1171159263025041570/ReloX.PNG?ex=655baa0f&is=6549350f&hm=020bc9cb290ef18078c39c77a0682220640d57bf6972aaa749b172cb42f75a2a&=&width=704&height=621" 
                                 className={`
                                     rounded-full 
                                 `}
