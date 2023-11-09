@@ -46,7 +46,7 @@ const Header = ({ $, NavItems }) => {
     const colorsThemes = [
         { id: 'mor', color: 'mor', label: 'Menekşe' },
         { id: 'mavi', color: 'mavi', label: 'Gökyüzü' },
-        { id: 'yesil', color: 'yesil', label: 'Zümrüt' },
+        { id: 'emerald', color: 'emerald', label: 'Emerald' },
         { id: 'kırmızı', color: 'kırmızı', label: 'Gül' },
         { id: 'turuncu', color: 'turuncu', label: 'Kehribar' },
     ];
@@ -65,7 +65,7 @@ const Header = ({ $, NavItems }) => {
         const theme = localStorage.getItem("theme");
         if (theme === "mor") setHue("hue-rotate-[230deg]");
         if (theme === "mavi") setHue("hue-rotate-[180deg]");
-        if (theme === "yesil") setHue("hue-rotate-[70deg]");
+        if (theme === "emerald") setHue("hue-rotate-[70deg]");
         if (theme === "kırmızı") setHue("hue-rotate-[330deg]");
         if (theme === "turuncu") setHue("");
     }, []);
@@ -166,9 +166,9 @@ const Header = ({ $, NavItems }) => {
                                 </Menu.Items>
                             </Transition>
                         </Menu>
-                        <Link href="https://bit.ly/3PHDjyC">
+                        <Link href="https://discord.com/api/oauth2/authorize?client_id=1170430199242952766&permissions=8&scope=bot">
                             <a className="w-auto flex items-center justify-center shadow-lg gap-x-2 shadow-amber-600/20 rounded-xl py-2.5 font-medium px-7 bg-gradient-to-tl from-amber-500 to-amber-700 text-white  hover:opacity-80 transition duration-200">
-                               Invite
+                               Davet Et
                             </a>
                </Link>
                     </div>
