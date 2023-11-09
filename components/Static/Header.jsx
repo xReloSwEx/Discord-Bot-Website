@@ -44,7 +44,7 @@ const Header = ({ $, NavItems }) => {
     const { theme, setTheme } = useTheme();
 
     const colorsThemes = [
-        { id: 'Violet', color: 'Violet', label: 'Violet' },
+        { id: 'violet', color: 'violet', label: 'violet' },
         { id: 'blue', color: 'blue', label: 'Sky' },
         { id: 'emerald', color: 'emerald', label: 'Emerald' },
         { id: 'rose', color: 'rose', label: 'Rose' },
@@ -63,7 +63,7 @@ const Header = ({ $, NavItems }) => {
         const banner = localStorage.getItem("$Award_close_banner");
         if (!banner) setBanner(true);
         const theme = localStorage.getItem("theme");
-        if (theme === "Violet") setHue("hue-rotate-[230deg]");
+        if (theme === "violet") setHue("hue-rotate-[230deg]");
         if (theme === "blue") setHue("hue-rotate-[180deg]");
         if (theme === "emerald") setHue("hue-rotate-[70deg]");
         if (theme === "rose") setHue("hue-rotate-[330deg]");
