@@ -46,7 +46,7 @@ const Header = ({ $, NavItems }) => {
     const colorsThemes = [
         { id: 'mor', color: 'mor', label: 'Menekşe' },
         { id: 'mavi', color: 'mavi', label: 'Gökyüzü' },
-        { id: 'yeşil', color: 'yeşil', label: 'Zümrüt' },
+        { id: 'yesil', color: 'yesil', label: 'Zümrüt' },
         { id: 'kırmızı', color: 'kırmızı', label: 'Gül' },
         { id: 'turuncu', color: 'turuncu', label: 'Kehribar' },
     ];
@@ -65,7 +65,7 @@ const Header = ({ $, NavItems }) => {
         const theme = localStorage.getItem("theme");
         if (theme === "mor") setHue("hue-rotate-[230deg]");
         if (theme === "mavi") setHue("hue-rotate-[180deg]");
-        if (theme === "yeşil") setHue("hue-rotate-[70deg]");
+        if (theme === "yesil") setHue("hue-rotate-[70deg]");
         if (theme === "kırmızı") setHue("hue-rotate-[330deg]");
         if (theme === "turuncu") setHue("");
     }, []);
