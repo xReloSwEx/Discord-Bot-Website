@@ -44,7 +44,7 @@ const Header = ({ $, NavItems }) => {
     const { theme, setTheme } = useTheme();
 
     const colorsThemes = [
-        { id: 'violet', color: 'violet', label: 'violet' },
+        { id: 'violet', color: 'violet', label: 'Violet' },
         { id: 'blue', color: 'blue', label: 'Sky' },
         { id: 'emerald', color: 'emerald', label: 'Emerald' },
         { id: 'rose', color: 'rose', label: 'Rose' },
