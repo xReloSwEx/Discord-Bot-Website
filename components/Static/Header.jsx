@@ -44,7 +44,7 @@ const Header = ({ $, NavItems }) => {
     const { theme, setTheme } = useTheme();
 
     const colorsThemes = [
-        { id: 'menekşe', color: 'menekşe', label: 'menekşe' },
+        { id: 'Violet', color: 'Violet', label: 'Violet' },
         { id: 'blue', color: 'blue', label: 'Sky' },
         { id: 'emerald', color: 'emerald', label: 'Emerald' },
         { id: 'rose', color: 'rose', label: 'Rose' },
@@ -63,7 +63,7 @@ const Header = ({ $, NavItems }) => {
         const banner = localStorage.getItem("$Award_close_banner");
         if (!banner) setBanner(true);
         const theme = localStorage.getItem("theme");
-        if (theme === "menekşe") setHue("hue-rotate-[230deg]");
+        if (theme === "Violet") setHue("hue-rotate-[230deg]");
         if (theme === "blue") setHue("hue-rotate-[180deg]");
         if (theme === "emerald") setHue("hue-rotate-[70deg]");
         if (theme === "rose") setHue("hue-rotate-[330deg]");
@@ -83,7 +83,7 @@ const Header = ({ $, NavItems }) => {
                                 width="48" height="48"
                             />
                             <p className="invisible md:visible text-xl text-white font-semibold">
-                              <a href="/"><span className="text-amber-400">Astra</span>Bot</a>
+                              <a href="/"><span className="text-amber-400">ReloX</span>Bot</a>
                             </p>
                         </div>
                         <ul className="hidden lg:flex items-center space-x-4">
